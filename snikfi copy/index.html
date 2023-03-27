@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link href="js/jqcloud.min.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jqcloud.min.js"></script>
+    <link rel="stylesheet" href="assets/main.css">
+
+    <title>snikfi | Fiz Islami</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="snikfi.com is the online portfolio for Fiz Islami. This page is dedicated to his academic and personal design projects."/>
+    <meta name="keywords" content="user interface design, user experience design, user research, interface design, experience design, designer, UI design, UX design, snikfi, Fiz, Islami, Fiz Islami, snikfi design, design, portfolio, london, united kingdom"/>
+    <meta name="author" content="snikfi.com by Fiz Islami"/>
+    
+    <meta property="og:title" content="snikfi | Fiz Islami">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="snikfi.com is the online portfolio for Fiz Islami. This page is dedicated to his academic and personal design projects.">
+    <meta property="og:site_name" content="snikfi | Fiz Islami">
+    <meta property="og:locale" content="en_GB">
+    <meta property="article:author" content="https://www.facebook.com/snikfi">
+    <meta property="article:section" content="Home">
+    <meta property="og:url" content="https://www.snikfi.com/">
+    <meta property="og:image" content="assets/favicon/snikfi-thumbnail.jpg"/>
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@snikfi_">
+    <meta name="twitter:title" content="snikfi | Fiz Islami">
+    <meta name="twitter:description" content="snikfi.com is the online portfolio for Fiz Islami. This page is dedicated to his academic and personal design projects.">
+    <meta name="twitter:creator" content="@snikfi_">
+    <meta name="twitter:image:src" content="assets/favicon/snikfi-thumbnail.jpg">
+    <meta name="twitter:image:alt" content="snikfi design is the online portfolio for Fiz Islami. This page is dedicated to his academic and personal design projects.">
+    <meta name="twitter:domain" content="https://www.snikfi.com/">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-icon.png">
+    
+    <meta name="x-country" content="gb">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin&family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Reem+Kufi+Fun:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-180930687-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-180930687-1');
+    </script>
+
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org/",
+            "@type": "Article",
+            "url": "https://snikfi.com",
+            "publisher": {
+                "@type": "Organization",
+                "name": "snikfi | Fiz Islami",
+                "logo": {
+                    "@type": "ImageObject",
+                    "url": "https://snikfi.com/assets/logo/snikfi.design-logo.svg"
+                }
+            },
+            "datePublished": "2020-08-06T20:16:37+01:00",
+            "dateModified": "2021-03-15T20:16:37+01:00",
+            "headline": "snikfi design | Fiz islami",
+            "image": {
+                "@list": [{
+                    "@type": "ImageObject",
+                    "url": "https://snikfi.com/assets/favicon/snikfi-thumbnail.jpg",
+                    "width": 1200,
+                    "height": 630
+                }]
+            },
+            "author": "Fiz Islami",
+            "mainEntityOfPage": "https://snikfi.com"
+        }
+    </script>
+
+    <style>
+
+        body {
+            -webkit-touch-callout: none; /* iOS Safari */
+            -webkit-user-select: none; /* Safari */
+            -khtml-user-select: none; /* Konqueror HTML */
+            -moz-user-select: none; /* Old versions of Firefox */
+            -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+            background-color: var(--neonyellow);
+            cursor: none;
+        }
+
+        div:hover > #cursor-hover{
+            display : block;
+        }
+
+        #cursor-hover{
+            z-index: 2;
+            display:none;
+            position:absolute;
+            font-size: 130px;
+            font-weight: 200;
+            color: var(--black);
+            cursor: none;
+        }
+
+        #main{
+            width: 100%;
+            height: 100%;
+            cursor: none;
+        }
+
+        .becky{
+            color: var(--black);
+        }
+
+        .tagline{
+            text-transform: uppercase;
+        }
+
+        h1{
+            width: 100%;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 28.5vw;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding-bottom: 40vw;
+            margin-left: -70px;
+        }
+
+        .buttons{
+            width: 100%;
+            top: 50px;
+            text-align: center;
+            position: fixed;
+        }
+
+        .click{
+            width: 100%;
+            font-style: italic;
+            text-transform: lowercase;
+            font-weight: 100;
+            text-align: center;
+            position: fixed;
+            bottom: 50px;
+        }
+        
+        .sd-logo{
+            filter: blur(5px);
+            -webkit-filter: blur(5px);
+            opacity: 0.2;
+            cursor: none;
+        }
+        
+        .box{
+            margin: 0 auto;
+            width: 100%;
+            height: 100%;
+            position: fixed;
+            overflow: hidden;
+            cursor: none;
+        }
+
+        .box b {
+            display: block;
+            width: 300px;
+            position: absolute;
+            -webkit-animation: moveX 120s linear 0s infinite alternate, moveY 120s linear 0s infinite alternate;
+            -moz-animation: moveX 120s linear 0s infinite alternate, moveY 120s linear 0s infinite alternate;
+            -o-animation: moveX 120s linear 0s infinite alternate, moveY 120s linear 0s infinite alternate;
+            animation: moveX 120s linear 0s infinite alternate, moveY 120s linear 0s infinite alternate;
+            cursor: none;
+        }
+
+        @-webkit-keyframes moveX {
+            from { left: 100px; } to { left: 100%; }
+        }
+        @-moz-keyframes moveX {
+            from { left: 100px; } to { left: 100%; }
+        }
+        @-o-keyframes moveX {
+            from { left: 100px; } to { left: 100%; }
+        }
+        @keyframes moveX {
+            from { left: 100px; } to { left: 100%; }
+        }
+
+        @-webkit-keyframes moveY {
+            from { top: 100px; } to { top: 100%; }
+        }
+        @-moz-keyframes moveY {
+            from { top: 100px; } to { top: 100%; }
+        }
+        @-o-keyframes moveY {
+            from { top: 100px; } to { top: 100%; }
+        }
+        @keyframes moveY {
+            from { top: 100px; } to { top: 100%; }
+        }
+
+        @media (max-width: 600px) {
+            h1{
+                margin-left: -20px;
+            }
+        }
+
+        @media (max-width: 800px) {
+            h1{
+                margin-left: -30px;
+            }
+        }
+
+    </style>
+    
+</head>
+<body>
+    <a href="./portfolio/" class="becky">
+        <div class="box"><b><img class="sd-logo" src="assets/logo/snikfi.design-logo.svg"/></b></div>
+        <div id="main">
+            <div id="cursor-hover"></div>
+                <div class="buttons">
+                    <p class="tagline">Design • Development</p>
+                </div>
+                <h1>snikfi</h1>  
+                <div class="click">
+                    <p>click to continue</p>
+            </div>
+        </div>
+    </a>
+    <script>
+
+    function custom(event){
+    var el = document.getElementById("cursor-hover");
+        el.style.top = event.clientY + "px";
+        el.style.left = event.clientX + "px";
+    }
+
+    document.getElementById("main").addEventListener('mousemove', custom);
+
+        // ——————————————————————————————————————————————————
+        // TextScramble
+        // ——————————————————————————————————————————————————
+
+        class TextScramble {
+          constructor(el) {
+            this.el = el
+            this.chars = '✨'
+            this.update = this.update.bind(this)
+          }
+          setText(newText) {
+            const oldText = this.el.innerText
+            const length = Math.max(oldText.length, newText.length)
+            const promise = new Promise((resolve) => this.resolve = resolve)
+            this.queue = []
+            for (let i = 0; i < length; i++) {
+              const from = oldText[i] || ''
+              const to = newText[i] || ''
+              const start = Math.floor(Math.random() * 40)
+              const end = start + Math.floor(Math.random() * 40)
+              this.queue.push({ from, to, start, end })
+            }
+            cancelAnimationFrame(this.frameRequest)
+            this.frame = 0
+            this.update()
+            return promise
+          }
+          update() {
+            let output = ''
+            let complete = 0
+            for (let i = 0, n = this.queue.length; i < n; i++) {
+              let { from, to, start, end, char } = this.queue[i]
+              if (this.frame >= end) {
+                complete++
+                output += to
+              } else if (this.frame >= start) {
+                if (!char || Math.random() < 0.28) {
+                  char = this.randomChar()
+                  this.queue[i].char = char
+                }
+                output += `<span class="scramble">${char}</span>`
+              } else {
+                output += from
+              }
+            }
+            this.el.innerHTML = output
+            if (complete === this.queue.length) {
+              this.resolve()
+            } else {
+              this.frameRequest = requestAnimationFrame(this.update)
+              this.frame++
+            }
+          }
+          randomChar() {
+            return this.chars[Math.floor(Math.random() * this.chars.length)]
+          }
+        }
+
+        const phrases = [
+          '➡️',
+          '📦',
+          '🔓',
+          '🧑‍💻',
+          '🌍',
+          '🇬🇧',
+          '📱'
+        ]
+
+        const el = document.querySelector('#cursor-hover')
+        const fx = new TextScramble(el)
+
+        let counter = 0
+        const next = () => {
+          fx.setText(phrases[counter]).then(() => {
+            setTimeout(next, 1000)
+          })
+          counter = (counter + 1) % phrases.length
+        }
+
+        next()
+
+    </script>
+</body>
+</html>
